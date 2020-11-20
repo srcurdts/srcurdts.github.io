@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/nature_bgcopy.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	
@@ -68,50 +68,63 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    border-radius: 30px 150px;
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    min-width: 150px;
+    max-width: 350px;
+    margin-bottom: 0px;
+    padding: 60px;
+    padding-bottom: 25px;
+
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-family: bely-display, sans-serif;
+	font-family: garamond, serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    font-size: 1.6em;
+    width: 700px;
+    line-height: 30px; 
+    margin: 0 auto;
+    margin-top: 1em;
+    color: floralwhite;
+    text-align: center;
+    font
 }
 
 h2 {
-	font-family: bely-display, sans-serif;
+	font-family: garamond, serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    font-size: 1.2em;
+    width: 700px;
+    line-height: 30px; 
+    margin: 0 auto;
+    margin-top: .4em;
+    color: floralwhite;
+    text-align: center;
+    font
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-family: garamond, serif;
+    font-family: garamond, serif;
     font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    border: white;
+    border-width: 3px 0;
+    text-align: center;
+    margin-top: 2em; 
 }
     
 nav{
@@ -119,10 +132,10 @@ nav{
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
+    border: white;
     border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 2em; 
     }    
 
 nav li{
@@ -132,6 +145,7 @@ nav li{
 nav a{
     display:inline-block;
     padding: 10px;
+    color:#f6e3e7;
     }
 
 a{
@@ -140,6 +154,5 @@ a{
     font-weight: bold;
     }
 a:hover{
-    color:black;
-    background:pink;
+    color:#707070;
     }
