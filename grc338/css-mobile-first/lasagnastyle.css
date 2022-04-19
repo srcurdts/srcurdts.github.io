@@ -1,0 +1,71 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; display: block;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+}
+
+body {
+	background-color: rgb(250, 250, 250); /* Not totally white. */
+	line-height: 140%; 	/* A little extra leading. */
+	font-family: poppins, sans-serif;
+}
+
+h1 {
+	background-color: rgb(254,135,25);
+	color: rgb(250,250,250); /* Same as body background. */
+	font-size: 2rem;
+	padding: 2.5rem 1.5rem .5rem; /* You want three values. */
+    line-height: 110%;
+    font-family: sutro, serif;
+	font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+	background-color: rgb(254, 135, 25);
+	color: rgb(254, 221, 188);
+	font-size: 1.5em;
+	padding: .5rem 1.5rem 1rem;
+	font-family: sutro, serif;
+	font-weight: normal;
+}
+
+h3 {
+	margin: 1.1rem 1.5rem 1rem; /*Three values again. You got the idea.*/
+	font-size: 1.1em;
+	color: rgb(254,135,25);
+    font-family: sutro, serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+}
+
+figcaption {
+    margin: 1rem 1.5rem 2rem;
+    font-family: poppins, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+footer {
+    background-color: rgb(254, 135, 25);
+    color: rgb(250, 250, 250);
+    padding: 1.2rem 1.5rem 1.2rem;      
+}
+
+li{
+    display: list-item;
+    margin-bottom: 1em;
+}
+
+ul {
+    padding: 0rem 1.5rem 1rem
+}
+
+ol {
+    padding: 0rem 1.5rem 1rem
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
