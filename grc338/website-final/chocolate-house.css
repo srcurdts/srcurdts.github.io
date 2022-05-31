@@ -1,0 +1,146 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+body {
+    color: #1e1e1e;
+    padding: 1em;
+    background-color: #fafafa; ; 
+    font-family: mr eaves mod ot, sans-serif;
+    font-style: normal;
+    font-size: 1.4em;
+    margin:1.5em .5em;
+    text-align: left;
+}
+
+div.container{
+    max-width: 50em;
+    margin: auto;
+}
+
+h1 {
+  
+  width: 8em;
+  padding-bottom: 1em;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0em 1em 1.5em 0em;
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
+nav ul li a {
+    color: rgb(18, 18, 18); 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: rgb(62 94 87);
+}
+ul {
+list-style-type: none;
+}
+
+p a{
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration:underline;
+}
+
+h2 {
+  color: rgb(120 60 30);
+  text-transform: uppercase;
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;   
+  line-height: 105%;
+  margin-bottom: .5em;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: rgb(120 60 30);
+    margin-top: .8em;
+    margin-bottom: .5em;
+    padding-top: .5em;
+    font-weight: 500;
+    border-top: solid;
+    line-height: 1.1em;
+}
+
+h4 {
+    font-weight: 600;
+    padding-top: .5em;
+}
+
+figure {
+    margin-top: 1em;
+}
+
+p.description {
+ font-style: italic;
+ font-weight: 400;
+ max-width: 25em;
+ 
+}
+
+p.price {
+   color: rgb(112 144 137);
+   margin-bottom: .8em;
+   line-height: 140%;
+   
+}
+
+img {
+    width: 100%; 
+}
+
+ 
+@media only screen and (min-width: 60em) {
+ 
+   
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3.5em;
+    }
+    
+    figure{
+        width: 100%;
+        padding: 0em;
+    }
+    
+    
+    about { 
+        display: grid;
+        grid-template-columns: 70% auto;
+        column-gap: 2em;
+    }
+     
+    p.about {
+       margin-top: 1em;
+       border-top: solid rgb(120 60 30) 2px;
+       padding-top: .5em;
+    }
+    
+    home {
+        display: grid;
+        grid-template-columns: 67% auto;
+        column-gap: 2em;
+    }
+    
+    h3.home {
+         margin-top: 2em;   
+    }
+    }
+    
+
+
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
