@@ -31,14 +31,14 @@ div.container {
 main {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(72% + 3em);
+    padding-bottom: calc(72% + 3em); /*all images must have same ratio, padding calculation is ratio height/width + caption*/
     
 }
 
 figure{
     margin: 0;
     width: calc(100%-2em);
-    position: absolute;
+    position: absolute; /*this allows all elements to stack, take up the same space/position*/
     opacity: 0;
     transition: opacity 0.5s;
 }
