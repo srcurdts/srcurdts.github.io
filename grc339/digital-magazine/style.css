@@ -1,0 +1,82 @@
+/*CSS document*/
+
+body {
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(250 248 245);
+    box-sizing: border-box;
+    line-height: 1.4em;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+a {
+    
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: .5em;
+    text-decoration: none;
+    color: rgb(8 8 8)
+}
+
+a:hover {
+    color: rgb(100 100 100);
+}
+
+nav ul li a:hover {
+    color: #EA72DB;
+}
+
+
+p {
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h4{
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    border-top: 2px solid rgb(8 8 8);
+    padding-top: 1em;
+}
+
+a:hover img{
+    filter:saturate(1.5);
+}
+
+
+figcaption {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10pt;
+    line-height: 13pt;
+}
