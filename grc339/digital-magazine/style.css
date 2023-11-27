@@ -17,7 +17,7 @@ div.container {
 h1 {
     max-width: 15em;
     margin: auto;
-    padding-top: 1em;
+    margin-top: 1em;
 }
 
 section {
@@ -34,6 +34,7 @@ img {
 }
 
 ul {
+   
     list-style-type: none;
     padding: 0;
 }
@@ -222,6 +223,7 @@ nav.photogallery img:hover{
 
 /*newsletter*/
 
+
 section.personal-info ul li {
 	display: flex;
 	flex-wrap: wrap;
@@ -233,12 +235,13 @@ section.personal-info ul li label {
 	flex: 1 0 1em;
 }
 
-section.personal-info ul li input[type="text"],
-section.personal-info ul li input[type="email"],
-section.personal-info ul li input[type="tel"],
-section.personal-info ul li select {
+ul li input[type="text"],
+ul li input[type="email"],
+ul li input[type="tel"],
+ul li select {
 	flex: 1 0 100%; 
 	box-sizing: border-box;
+    display: flex;    
 }
 
 
@@ -286,3 +289,29 @@ button {
 button:hover {
      color: #EA72DB;   
 }
+
+
+/*darkmode*/
+
+@media screen and (prefers-color-scheme: dark) {
+    body{
+        background-color: rgb(20 20 20);
+        color: rgb(255, 250, 245);
+        }
+    
+     a {
+        color: rgb(255, 250, 245);
+    }
+
+    h1 {
+        background-image: url("visualize-logo-alt.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    h1 img {
+        opacity: 0;
+    }
+}
+    
+   
