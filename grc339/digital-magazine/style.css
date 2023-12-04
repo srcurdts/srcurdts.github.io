@@ -7,6 +7,7 @@ body {
     background-color: rgb(255, 250, 245);
     box-sizing: border-box;
     line-height: 1.4em;
+    
 }
 
 div.container {
@@ -74,6 +75,7 @@ p {
     font-family: "trade-gothic-next", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 }
 
 footer{
@@ -112,14 +114,18 @@ section.tertiary {
 }
 
 @media screen and (min-width: 60em){
+    article p {
+        font-size: 19px;
+        line-height: 1.4em;
+    }
+    
     div.container {
         max-width: 70em;
         display: grid;
         grid-template-columns: 3fr 1fr;
-        grid-gap: 1em 1.5em;
+        grid-gap: 1em 3em;
     }
     
-   
     section {
         max-width: 40em;
         margin: 0 auto;
@@ -132,7 +138,7 @@ section.tertiary {
         grid-column: 1/2;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1em 1.5em;
+        grid-gap: 1em 3em;
     }
     
     section.mainstory {
@@ -187,8 +193,7 @@ main.photogallery figure {
 }
 
 main.photogallery figure img {
-    align-content: center;
-  
+    align-content: center; 
 }
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
